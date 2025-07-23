@@ -7,7 +7,6 @@ import java.util.Map;
 import java.util.stream.Collectors;
 
 import model.customer.Customer;
-import model.invoice.Invoice;
 
 public class CustomerService {
     private Map<String, Customer> customerData = new HashMap<>();
